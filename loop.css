@@ -1,10 +1,9 @@
-/* css  - * wildcard selector */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  /* copilot */
   a {
     text-decoration: none;
     color: inherit;
@@ -114,9 +113,14 @@
   footer ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
-  }
-  /* mdn web docs --- notes */
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/position */
-  
-  /* responsive - media queris */
+}
+
+.footer-nav li {
+    margin: 0 15px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+}
+
